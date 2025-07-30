@@ -7,6 +7,7 @@ import Update from './Update';
 const App = () => {
   return (
     <>
+    //routes
       <Routes>
         <Route path='/' element={<Create />} />
         <Route path='/show' element={<Show />} />
